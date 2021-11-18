@@ -15,17 +15,17 @@ body {
   background-color:whitesmoke;
 }
 
-.header, .hero, .main, .testo, .cta, footer {
+header, .hero, main, .testo, .cta, footer {
   display: flex;
   padding: 0px 15%;
 }
 
-.header, .hero, footer {
+header, .hero, footer {
   justify-content: space-between;
   align-items: center;
 }
 
-.main, .cta {
+main, .cta {
   flex-direction: column;
   padding-bottom: 64px;
 }
@@ -87,7 +87,7 @@ button {
   font-weight: 900;
 }
 
-.header .links {
+header .links {
   display: flex;
 
   list-style-type: none;
